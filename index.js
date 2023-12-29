@@ -178,8 +178,7 @@ import layer4UpperWindow2_higherPlinth_leftImport from "./api/layer4/layer4_uppe
 import layer4UpperWindow2_lowerPlinth_leftImport from "./api/layer4/layer4_upper/upperWindow2/upperWindow2_left/window_lowerPlinth_left.geojson" assert { type: "json" };
 import layer4UpperWindow2Mirror_leftImport from "./api/layer4/layer4_upper/upperWindow2/upperWindow2_left/windowMirror_left.geojson" assert { type: "json" };
 
-
-// gậy trường sinh 
+// gậy trường sinh
 import layer4Stick_rightImport from "./api/layer4/stick/stick_right.geojson" assert { type: "json" };
 import layer4Stick_leftImport from "./api/layer4/stick/stick_left.geojson" assert { type: "json" };
 import layer4MonkeyStick_leftImport from "./api/layer4/stick/monkeystick_left.geojson" assert { type: "json" };
@@ -5601,17 +5600,17 @@ require([
     ground: "world-elevation",
     layers: [
       layer1Layer1,
-      // decors1Layer,       //trang trí
-      // decors1_sharp_brickLayer, //trang trí
-      // decors1_upLayer,        //trang trí
-      // decors1_tombLayer,        //trang trí
+      // decors1Layer, //trang trí
+      decors1_sharp_brickLayer, //trang trí
+      // decors1_upLayer, //trang trí
+      decors1_tombLayer, //trang trí
       // decors_back1Layer,
       // decors1_sharp_brick_backLayer,
       // decors1_up_backLayer,
-      // decors1_tomb_backLayer,
+      decors1_tomb_backLayer,
       // decors_right1Layer,
       // decors1_sharp_brick_rightLayer,
-      // decors1_up_rightLayer,
+      decors1_up_rightLayer,
       // decors1_tomb_rightLayer,
       // stair1Layer,     //Cầu thang
       //======layer2Layer2,
@@ -5856,7 +5855,7 @@ require([
     container: "viewDiv",
     map: map,
     camera: {
-      position: [ 106.7034665,10.7843489,  100], // toạ độ điểm gốc 
+      position: [106.7034665, 10.7843489, 100], // toạ độ điểm gốc
       heading: 0,
       tilt: 0,
     },
