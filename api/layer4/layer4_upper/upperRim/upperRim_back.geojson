@@ -5,6 +5,126 @@
       "type": "Feature",
       "properties": {
         "Building name": "Mái nhà layer4",
+        "height": 3,
+        "color": "#ccdcdcd",
+        "idb": "1"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [106.703682, 10.784149, 155],
+            [106.703604, 10.784036, 162],
+            [106.703756, 10.784042, 155]
+          ]
+        ]
+      },
+      "id": "pp1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Building name": "Mái nhà layer4",
+        "height": 5,
+        "color": "#ccdcdcd",
+        "idb": "1"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [106.703756, 10.784042, 155],
+            [106.703604, 10.784036, 162],
+            [106.703689, 10.783895, 155]
+          ]
+        ]
+      },
+      "id": "pp1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Building name": "Mái nhà layer4",
+        "height": 5,
+        "color": "#ccdcdcd",
+        "idb": "1"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [106.703689, 10.783895, 155],
+            [106.703604, 10.784036, 162],
+            [106.70353, 10.783892, 155]
+          ]
+        ]
+      },
+      "id": "pp1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Building name": "Mái nhà layer4",
+        "height": 5,
+        "color": "#ccdcdcd",
+        "idb": "1"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [106.70353, 10.783892, 155],
+            [106.703604, 10.784036, 162],
+            [106.703453, 10.78404, 155]
+          ]
+        ]
+      },
+      "id": "pp1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Building name": "Mái nhà layer4",
+        "height": 5,
+        "color": "#ccdcdcd",
+        "idb": "1"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [106.703453, 10.78404, 155],
+            [106.703604, 10.784036, 162],
+            [106.703516, 10.784147, 155]
+          ]
+        ]
+      },
+      "id": "pp1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Building name": "Mái nhà layer4",
+        "height": 5,
+        "color": "#ccdcdcd",
+        "idb": "1"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [106.703516, 10.784147, 155],
+            [106.703604, 10.784036, 162],
+            [106.703608, 10.784035, 155]
+          ]
+        ]
+      },
+      "id": "pp1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Building name": "Mái nhà layer4",
         "height": 5,
         "color": "#ccdcdcd",
         "idb": "1"
@@ -14,12 +134,8 @@
         "coordinates": [
           [
             [106.703682, 10.784149, 155],
-            [106.703756, 10.784042, 155],
-            [106.703689, 10.783895, 155],
-            [106.70353, 10.783892, 155],
-            [106.703453, 10.78404, 155],
-            [106.703516, 10.784147, 155],
-            [106.703608, 10.784035, 155]
+            [106.703604, 10.784036, 162],
+            [106.703516, 10.784147, 155]
           ]
         ]
       },
