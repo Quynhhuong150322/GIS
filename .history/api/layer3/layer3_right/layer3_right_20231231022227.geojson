@@ -1,0 +1,89 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Building name": "Decor_Layer3",
+        "height": 2,
+        "color": "#C8C2BA",
+        "idb": "1"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.703461,
+              10.784228,
+              30
+            ],
+            [
+              106.703453,
+              10.784212,
+              30
+            ],
+            [
+              106.703452,
+              10.784212,
+              30
+            ],
+            [
+              106.703460,
+              10.784228,
+              30
+            ],
+            [
+              106.703461,
+              10.784228,
+              30
+            ]
+          ]
+        ]
+      },
+      "id": "pp1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Building name": "Decor_Layer3",
+        "height": 2,
+        "color": "#C8C2BA",
+        "idb": "1"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.703449,
+              10.784200,
+              30
+            ],
+            [
+              106.703443,
+              10.784188,
+              30
+            ],
+            [
+              106.703442,
+              10.784188,
+              30
+            ],
+            [
+              106.703448,
+              10.784200,
+              30
+            ],
+            [
+              106.703449,
+              10.784200,
+              30
+            ]
+          ]
+        ]
+      },
+      "id": "pp1"
+    }
+  ]
+}
