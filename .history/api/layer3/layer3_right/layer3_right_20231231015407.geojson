@@ -1,0 +1,47 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Building name": "Decor_Layer3",
+        "height": 2,
+        "color": "#C8C2BA",
+        "idb": "1"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.703462,
+              10.784224,
+              30
+            ],
+            [
+              106.703445,
+              10.784224,
+              30
+            ],
+            [
+              106.703445,
+              10.784223,
+              30
+            ],
+            [
+              106.703462,
+              10.784223,
+              30
+            ],
+            [
+              106.703462,
+              10.784224,
+              30
+            ]
+          ]
+        ]
+      },
+      "id": "pp1"
+    }
+  ]
+}
