@@ -4,7 +4,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Building name": "Layer1 - Nền 1",
+        "Building name": "Layer1 - Gờ 2 bên (bên trái)",
         "height": 30,
         "color": "#cdcdcd",
         "idb": "1"
@@ -25,7 +25,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Building name": "Layer1 - Nền 1",
+        "Building name": "Layer1 - Gờ 2 bên (bên phải)",
         "height": 30,
         "color": "#cdcdcd",
         "idb": "1"
