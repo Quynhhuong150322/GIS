@@ -6,7 +6,7 @@
       "properties": {
         "Building name": "Layer 2 - Gờ toà nhà 9 cạnh (ở trên)",
         "height": 5,
-        "color": "#00FF",
+        "color": "#ffffff",
         "idb": "1"
       },
       "geometry": {
@@ -32,7 +32,7 @@
       "properties": {
         "Building name": "Layer 2 - Gờ toà nhà 9 cạnh (ở dưới)",
         "height": 3,
-        "color": "#00FF",
+        "color": "#ffffff",
         "idb": "1"
       },
       "geometry": {
