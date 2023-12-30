@@ -4,9 +4,9 @@
     {
       "type": "Feature",
       "properties": {
-        "Building name": "Layer2 - Nền 2",
+        "Building name": "Layer 2 - Gờ toà nhà 9 cạnh (ở trên)",
         "height": 5,
-        "color": "#00FF",
+        "color": "#ffffff",
         "idb": "1"
       },
       "geometry": {
@@ -30,9 +30,9 @@
     {
       "type": "Feature",
       "properties": {
-        "Building name": "Layer4 - Nền 4",
+        "Building name": "Layer 2 - Gờ toà nhà 9 cạnh (ở dưới)",
         "height": 3,
-        "color": "#00FF",
+        "color": "#ffffff",
         "idb": "1"
       },
       "geometry": {

@@ -4,7 +4,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Building name": "Layer4 - Nền 4 - layer4/layer4_right",
+        "Building name": "Layer4 - Gờ mái nhà (ở trên)",
         "height": 3,
         "color": "#ffffff",
         "idb": "1"
@@ -27,7 +27,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Building name": "Layer4 - Nền 4 - layer4/layer4_right",
+        "Building name": "Layer4 - Gờ mái nhà (ở dưới)",
         "height": 1.5,
         "color": "#ffffff",
         "idb": "1"
