@@ -1,0 +1,47 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Building name": "Layer3 - Nền 3",
+        "height": 2,
+        "color": "#C8C2BA",
+        "idb": "1"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.703643,
+              10.784247,
+              30
+            ],
+            [
+              106.703626,
+              10.784247,
+              30
+            ],
+            [
+              106.703626,
+              10.784246,
+              30
+            ],
+            [
+              106.703643,
+              10.784246,
+              30
+            ],
+            [
+              106.703643,
+              10.784247,
+              30
+            ]
+          ]
+        ]
+      },
+      "id": "pp1"
+    }
+  ]
+}
