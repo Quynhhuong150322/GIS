@@ -17,6 +17,9 @@ import layer1Stairs1Import from "./api/layer1/stairs1.geojson" assert { type: "j
 // import layer2Layer2Import from "./api/layer2/layer2.geojson" assert { type: "json" };
 
 import layer2Layer2_frontImport from "./api/layer2/layer2_front/layer2_front.geojson" assert { type: "json" };
+import layer2Decors_verticalImport from "./api/layer2/decors_front/decors_vertical.geojson" assert { type: "json" };
+import layer2Decors_horizontalImport from "./api/layer2/decors_front/decors_horizontal.geojson" assert { type: "json" };
+
 import layer2Layer2_front_inImport from "./api/layer2/layer2_front/layer2_front_in.geojson" assert { type: "json" };
 import layer2Layer2_rightImport from "./api/layer2/layer2_right/layer2_right.geojson" assert { type: "json" };
 import layer2Layer2_right_inImport from "./api/layer2/layer2_right/layer2_right_in.geojson" assert { type: "json" };
@@ -26,7 +29,9 @@ import layer2Layer2_leftImport from "./api/layer2/layer2_left/layer2_left.geojso
 import layer2Layer2_left_inImport from "./api/layer2/layer2_left/layer2_left_in.geojson" assert { type: "json" };
 import layer3Layer3Import from "./api/layer3/layer3_front/layer3_front.geojson" assert { type: "json" };
 import layer3Layer3_rightImport from "./api/layer3/layer3_right/layer3_right.geojson" assert { type: "json" };
+
 import layer3Layer3_topImport from "./api/layer3/layer3_top/layer3_top.geojson" assert { type: "json" };
+
 import layer3Layer3_leftImport from "./api/layer3/layer3_left/layer3_left.geojson" assert { type: "json" };
 
 import layer4Layer4_frontImport from "./api/layer4/layer4_front/layer4_front.geojson" assert { type: "json" };
@@ -591,6 +596,44 @@ require([
           size: layer2Layer2_frontImport.features[0].properties.height,
           material: {
             color: layer2Layer2_frontImport.features[0].properties.color,
+          },
+        },
+      ],
+    },
+  };
+
+  const layer2Decors_vertical = new GeoJSONLayer({
+    url: "./api/layer2/decors_front/decors_vertical.geojson",
+  });
+  layer2Decors_vertical.renderer = {
+    type: "simple",
+    symbol: {
+      type: "polygon-3d",
+      symbolLayers: [
+        {
+          type: "extrude",
+          size: layer2Decors_verticalImport.features[0].properties.height,
+          material: {
+            color: layer2Decors_verticalImport.features[0].properties.color,
+          },
+        },
+      ],
+    },
+  };
+
+  const layer2Decors_horizontal = new GeoJSONLayer({
+    url: "./api/layer2/decors_front/decors_horizontal.geojson",
+  });
+  layer2Decors_horizontal.renderer = {
+    type: "simple",
+    symbol: {
+      type: "polygon-3d",
+      symbolLayers: [
+        {
+          type: "extrude",
+          size: layer2Decors_horizontalImport.features[0].properties.height,
+          material: {
+            color: layer2Decors_horizontalImport.features[0].properties.color,
           },
         },
       ],
@@ -5615,6 +5658,8 @@ require([
       // stair1Layer,     //Cầu thang
       //======layer2Layer2,
       layer2Layer2_front,
+      layer2Decors_vertical,
+      layer2Decors_horizontal,
       // layer2Layer2_front_in,
       // layer2Layer2_right,
       // layer2Layer2_right_in,

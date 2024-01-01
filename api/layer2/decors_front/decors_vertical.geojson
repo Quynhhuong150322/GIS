@@ -1,0 +1,528 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "Building name": "Layer2 - Dercos dọc mặt trước",
+                "height": 7.4,
+                "color": "#00000",
+                "idb": "1"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [106.703475,10.784212,15],
+                        [106.7034756,10.784212, 15],
+                        [106.7034756,10.784210, 15],
+                        [106.703476,10.784210, 15]
+                    ]
+                ]
+            },
+            "id": "pp1"
+        
+      }, {
+        "type": "Feature",
+        "properties": {
+            "Building name": "Layer2 - Dercos dọc mặt trước",
+            "height": 7.4,
+            "color": "#00000",
+            "idb": "1"
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [106.703485,10.784212,15],
+                    [106.7034856,10.784212, 15],
+                    [106.7034856,10.784210, 15],
+                    [106.703486,10.784210, 15]
+                ]
+            ]
+        },
+        "id": "pp1"
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Building name": "Layer2 - Dercos dọc mặt trước",
+            "height": 7.4,
+            "color": "#00000",
+            "idb": "1"
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [106.703495,10.784212,15],
+                    [106.7034956,10.784212, 15],
+                    [106.7034956,10.784210, 15],
+                    [106.703496,10.784210, 15]
+                ]
+            ]
+        },
+        "id": "pp1"
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Building name": "Layer2 - Dercos dọc mặt trước",
+            "height": 7.4,
+            "color": "#00000",
+            "idb": "1"
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [106.703505,10.784212,15],
+                    [106.7035056,10.784212, 15],
+                    [106.7035056,10.784210, 15],
+                    [106.703506,10.784210, 15]
+                ]
+            ]
+        },
+        "id": "pp1"
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Building name": "Layer2 - Dercos dọc mặt trước",
+            "height": 7.4,
+            "color": "#00000",
+            "idb": "1"
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [106.703515,10.784212,15],
+                    [106.7035156,10.784212, 15],
+                    [106.7035156,10.784210, 15],
+                    [106.703516,10.784210, 15]
+                ]
+            ]
+        },
+        "id": "pp1"
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Building name": "Layer2 - Dercos dọc mặt trước",
+            "height": 7.4,
+            "color": "#00000",
+            "idb": "1"
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [106.703525,10.784212,15],
+                    [106.7035256,10.784212, 15],
+                    [106.7035256,10.784210, 15],
+                    [106.703526,10.784210, 15]
+                ]
+            ]
+        },
+        "id": "pp1"
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Building name": "Layer2 - Dercos dọc mặt trước",
+            "height": 7.4,
+            "color": "#00000",
+            "idb": "1"
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [106.703535,10.784212,15],
+                    [106.7035356,10.784212, 15],
+                    [106.7035356,10.784210, 15],
+                    [106.703536,10.784210, 15]
+                ]
+            ]
+        },
+        "id": "pp1"
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Building name": "Layer2 - Dercos dọc mặt trước",
+            "height": 7.4,
+            "color": "#00000",
+            "idb": "1"
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [106.703545,10.784212,15],
+                    [106.7035456,10.784212, 15],
+                    [106.7035456,10.784210, 15],
+                    [106.703546,10.784210, 15]
+                ]
+            ]
+        },
+        "id": "pp1"
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Building name": "Layer2 - Dercos dọc mặt trước",
+            "height": 7.4,
+            "color": "#00000",
+            "idb": "1"
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [106.703555,10.784212,15],
+                    [106.7035556,10.784212, 15],
+                    [106.7035556,10.784210, 15],
+                    [106.703556,10.784210, 15]
+                ]
+            ]
+        },
+        "id": "pp1"
+    }
+    , {
+        "type": "Feature",
+        "properties": {
+            "Building name": "Layer2 - Dercos dọc mặt trước",
+            "height": 7.4,
+            "color": "#00000",
+            "idb": "1"
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [106.703565,10.784212,15],
+                    [106.7035656,10.784212, 15],
+                    [106.7035656,10.784210, 15],
+                    [106.703566,10.784210, 15]
+                ]
+            ]
+        },
+        "id": "pp1"
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Building name": "Layer2 - Dercos dọc mặt trước",
+            "height": 7.4,
+            "color": "#00000",
+            "idb": "1"
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [106.703575,10.784212,15],
+                    [106.7035756,10.784212, 15],
+                    [106.7035756,10.784210, 15],
+                    [106.703576,10.784210, 15]
+                ]
+            ]
+        },
+        "id": "pp1"
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Building name": "Layer2 - Dercos dọc mặt trước",
+            "height": 7.4,
+            "color": "#00000",
+            "idb": "1"
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [106.703585,10.784212,15],
+                    [106.7035856,10.784212, 15],
+                    [106.7035856,10.784210, 15],
+                    [106.703586,10.784210, 15]
+                ]
+            ]
+        },
+        "id": "pp1"
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Building name": "Layer2 - Dercos dọc mặt trước",
+            "height": 7.4,
+            "color": "#00000",
+            "idb": "1"
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [106.703595,10.784212,15],
+                    [106.7035956,10.784212, 15],
+                    [106.7035956,10.784210, 15],
+                    [106.703596,10.784210, 15]
+                ]
+            ]
+        },
+        "id": "pp1"
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Building name": "Layer2 - Dercos dọc mặt trước",
+            "height": 7.4,
+            "color": "#00000",
+            "idb": "1"
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [106.703605,10.784212,15],
+                    [106.7036056,10.784212, 15],
+                    [106.7036056,10.784210, 15],
+                    [106.703606,10.784210, 15]
+                ]
+            ]
+        },
+        "id": "pp1"
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Building name": "Layer2 - Dercos dọc mặt trước",
+            "height": 7.4,
+            "color": "#00000",
+            "idb": "1"
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [106.703615,10.784212,15],
+                    [106.7036156,10.784212, 15],
+                    [106.7036156,10.784210, 15],
+                    [106.703616,10.784210, 15]
+                ]
+            ]
+        },
+        "id": "pp1"
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Building name": "Layer2 - Dercos dọc mặt trước",
+            "height": 7.4,
+            "color": "#00000",
+            "idb": "1"
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [106.703625,10.784212,15],
+                    [106.7036256,10.784212, 15],
+                    [106.7036256,10.784210, 15],
+                    [106.703626,10.784210, 15]
+                ]
+            ]
+        },
+        "id": "pp1"
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Building name": "Layer2 - Dercos dọc mặt trước",
+            "height": 7.4,
+            "color": "#00000",
+            "idb": "1"
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [106.703635,10.784212,15],
+                    [106.7036356,10.784212, 15],
+                    [106.7036356,10.784210, 15],
+                    [106.703636,10.784210, 15]
+                ]
+            ]
+        },
+        "id": "pp1"
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Building name": "Layer2 - Dercos dọc mặt trước",
+            "height": 7.4,
+            "color": "#00000",
+            "idb": "1"
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [106.703645,10.784212,15],
+                    [106.7036456,10.784212, 15],
+                    [106.7036456,10.784210, 15],
+                    [106.703646,10.784210, 15]
+                ]
+            ]
+        },
+        "id": "pp1"
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Building name": "Layer2 - Dercos dọc mặt trước",
+            "height": 7.4,
+            "color": "#00000",
+            "idb": "1"
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [106.703655,10.784212,15],
+                    [106.7036556,10.784212, 15],
+                    [106.7036556,10.784210, 15],
+                    [106.703656,10.784210, 15]
+                ]
+            ]
+        },
+        "id": "pp1"
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Building name": "Layer2 - Dercos dọc mặt trước",
+            "height": 7.4,
+            "color": "#00000",
+            "idb": "1"
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [106.703665,10.784212,15],
+                    [106.7036656,10.784212, 15],
+                    [106.7036656,10.784210, 15],
+                    [106.703666,10.784210, 15]
+                ]
+            ]
+        },
+        "id": "pp1"
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Building name": "Layer2 - Dercos dọc mặt trước",
+            "height": 7.4,
+            "color": "#00000",
+            "idb": "1"
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [106.703675,10.784212,15],
+                    [106.7036756,10.784212, 15],
+                    [106.7036756,10.784210, 15],
+                    [106.703676,10.784210, 15]
+                ]
+            ]
+        },
+        "id": "pp1"
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Building name": "Layer2 - Dercos dọc mặt trước",
+            "height": 7.4,
+            "color": "#00000",
+            "idb": "1"
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [106.703685,10.784212,15],
+                    [106.7036856,10.784212, 15],
+                    [106.7036856,10.784210, 15],
+                    [106.703686,10.784210, 15]
+                ]
+            ]
+        },
+        "id": "pp1"
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Building name": "Layer2 - Dercos dọc mặt trước",
+            "height": 7.4,
+            "color": "#00000",
+            "idb": "1"
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [106.703695,10.784212,15],
+                    [106.7036956,10.784212, 15],
+                    [106.7036956,10.784210, 15],
+                    [106.703696,10.784210, 15]
+                ]
+            ]
+        },
+        "id": "pp1"
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Building name": "Layer2 - Dercos dọc mặt trước",
+            "height": 7.4,
+            "color": "#00000",
+            "idb": "1"
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [106.703705,10.784212,15],
+                    [106.7037056,10.784212, 15],
+                    [106.7037056,10.784210, 15],
+                    [106.703706,10.784210, 15]
+                ]
+            ]
+        },
+        "id": "pp1"
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Building name": "Layer2 - Dercos dọc mặt trước",
+            "height": 7.4,
+            "color": "#00000",
+            "idb": "1"
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [106.703715,10.784212,15],
+                    [106.7037156,10.784212, 15],
+                    [106.7037156,10.784210, 15],
+                    [106.703716,10.784210, 15]
+                ]
+            ]
+        },
+        "id": "pp1"
+    }, {
+        "type": "Feature",
+        "properties": {
+            "Building name": "Layer2 - Dercos dọc mặt trước",
+            "height": 7.4,
+            "color": "#00000",
+            "idb": "1"
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [106.703725,10.784212,15],
+                    [106.7037256,10.784212, 15],
+                    [106.7037256,10.784210, 15],
+                    [106.703726,10.784210, 15]
+                ]
+            ]
+        },
+        "id": "pp1"
+    }
+    ]
+}
