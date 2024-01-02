@@ -1,0 +1,134 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "Building name": "Layer4 - Dercos - 1",
+                "height": 0,
+                "color": "#56606f",
+                "idb": "1"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [106.703682, 10.7841491, 141.61],
+                        [106.703682, 10.78414921, 155],
+                        [106.703756, 10.78404221, 155],
+                        [106.703756, 10.7840421, 141.61]
+                    ]
+                ]
+            },
+            "id": "pp1"
+        
+      },{
+        "type": "Feature",
+        "properties": {
+            "Building name": "Layer4 - Dercos -2",
+            "height": 0,
+            "color": "#56606f",
+            "idb": "1"
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [106.7037563, 10.78404221, 141.61],
+                    [106.7037563, 10.784042221, 155],
+                    [106.7036893, 10.783895231, 155],
+                    [106.7036893, 10.78389523, 141.61]
+                ]
+            ]
+        },
+        "id": "pp1"
+    
+        },{
+            "type": "Feature",
+            "properties": {
+                "Building name": "Layer4 - Dercos ",
+                "height": 0,
+                "color": "#56606f",
+                "idb": "1"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [106.70353, 10.7838922, 141.61],
+                        [106.70353, 10.78389222, 155],
+                        [106.7034536, 10.78404222, 155],
+                        [106.7034536, 10.7840422, 141.61]
+
+                    ]
+                ]
+            },
+            "id": "pp1"
+
+        },{
+            "type": "Feature",
+            "properties": {
+                "Building name": "Layer4 - Dercos - 3",
+                "height": 0,
+                "color": "#56606f",
+                "idb": "1"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [106.703689, 10.7838952, 141.61],
+                        [106.703689, 10.78389522, 155],
+                        [106.70353, 10.78389222, 155],
+                        [106.70353, 10.7838922, 141.61]
+
+                    ]
+                ]
+            },
+            "id": "pp1"
+
+        },{
+            "type": "Feature",
+            "properties": {
+                "Building name": "Layer4 - Dercos - 5",
+                "height": 0,
+                "color": "#56606f",
+                "idb": "1"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [106.7034536, 10.7840422, 141.61],
+                        [106.7034536, 10.78404222, 155],
+                        [106.703516, 10.784147232, 155],
+                        [106.703516, 10.78414723, 141.61]
+                    ]
+                ]
+            },
+            "id": "pp1"
+
+        },{
+            "type": "Feature",
+            "properties": {
+                "Building name": "Layer4 - Dercos - 6",
+                "height": 0,
+                "color": "#56606f",
+                "idb": "1"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [106.703516, 10.7841472, 141.61],
+                        [106.703516, 10.78414722, 155],
+                        [106.703682, 10.78414922, 155],
+                        [106.703682, 10.7841492, 141.61]
+                    ]
+                ]
+            },
+            "id": "pp1"
+
+        }
+    ]
+}
