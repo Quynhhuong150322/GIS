@@ -1,0 +1,26 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "Building name": "Layer4 - Dercos",
+                "height": 0,
+                "color": "#56606f",
+                "idb": "1"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [106.703471, 10.784244, 71.99],
+                        [106.703471, 10.784244, 110],
+                        [106.703651, 10.784248, 110],
+                        [106.703651, 10.784248, 71.99]
+                    ]
+                ]
+            },
+            "id": "pp1"
+        
+      }
+]}

@@ -18,7 +18,7 @@ import layer1Stairs1Import from "./api/layer1/stairs1.geojson" assert { type: "j
 
 import layer2Layer2_frontImport from "./api/layer2/layer2_front/layer2_front.geojson" assert { type: "json" };
 import layer2Decors_verticalImport from "./api/layer2/decors_front/decors_vertical.geojson" assert { type: "json" };
-import layer2Decors_horizontalImport from "./api/layer2/decors_front/decors_horizontal.geojson" assert { type: "json" };
+import layer2Decors_frontImport from "./api/layer2/decors_front/decors_front.geojson" assert { type: "json" };
 
 import layer2Layer2_front_inImport from "./api/layer2/layer2_front/layer2_front_in.geojson" assert { type: "json" };
 import layer2Layer2_rightImport from "./api/layer2/layer2_right/layer2_right.geojson" assert { type: "json" };
@@ -258,6 +258,17 @@ import layer6RoofDecor_fill_inImport from "./api/layer6/roof_decor/roofdecor_fil
 import layer4WorkshipImport from "./api/layer4/worshipphoto/workship.geojson" assert { type: "json" };
 import layer4RoodImport from "./api/layer4/worshipphoto/rood.geojson" assert { type: "json" };
 import layer4PhotoImport from "./api/layer4/worshipphoto/photo.geojson" assert { type: "json" };
+
+//decors glass
+
+import ayer4DecorGlassCrossImport from "./api/layer4/decors_glass/decors_glass_cross.geojson" assert { type: "json" };
+import layer4DecorGlassImport from "./api/layer4/decors_glass/decors_glass.geojson" assert { type: "json" };
+
+
+///
+import layer4DecorImport from "./api/layer4/layer4_front/decors/decors.geojson" assert { type: "json" };
+
+
 require([
   "esri/Map",
   "esri/views/SceneView",
@@ -295,6 +306,31 @@ require([
       popupTemplate: data.popupTemplate,
     });
   };
+
+  const layer4Decors = new GeoJSONLayer({
+    url: "./api/layer4/layer4_front/decors/decors.geojson",
+  });
+  layer4Decors.renderer = {
+    type: "simple",
+    symbol: {
+      type: "polygon-3d",
+      symbolLayers: [
+        {
+          type: "fill",
+          size: layer4DecorImport.features[0].properties.height,
+          material: {
+            color: layer4DecorImport.features[0].properties.color,
+          },
+      // pattern: {
+      //     type: "style",
+      //     style: "cross",
+      //   },
+     },
+    ],
+  },
+}; 
+
+console.log(layer4Decors.renderer)
 
   // Layer1
   // Nền 1
@@ -611,29 +647,35 @@ require([
       type: "polygon-3d",
       symbolLayers: [
         {
-          type: "extrude",
+          type: "fill",
           size: layer2Decors_verticalImport.features[0].properties.height,
           material: {
             color: layer2Decors_verticalImport.features[0].properties.color,
           },
+      pattern: {
+          type: "style",
+          style: "cross",
         },
-      ],
-    },
-  };
+     },
+    ],
+  },
+};  
 
-  const layer2Decors_horizontal = new GeoJSONLayer({
-    url: "./api/layer2/decors_front/decors_horizontal.geojson",
+console.log(layer2Decors_vertical.renderer);
+
+  const layer2Decors_front = new GeoJSONLayer({
+    url: "./api/layer2/decors_front/decors_front.geojson",
   });
-  layer2Decors_horizontal.renderer = {
+  layer2Decors_front.renderer = {
     type: "simple",
     symbol: {
       type: "polygon-3d",
       symbolLayers: [
         {
           type: "extrude",
-          size: layer2Decors_horizontalImport.features[0].properties.height,
+          size: layer2Decors_frontImport.features[0].properties.height,
           material: {
-            color: layer2Decors_horizontalImport.features[0].properties.color,
+            color: layer2Decors_frontImport.features[0].properties.color,
           },
         },
       ],
@@ -1117,6 +1159,51 @@ require([
       ],
     },
   };
+
+  //decor kính đen
+  const layer4Decors_vertical = new GeoJSONLayer({
+    url: "./api/layer4/decors_glass/decors_glass_cross.geojson",
+  });
+  layer4Decors_vertical.renderer = {
+    type: "simple",
+    symbol: {
+      type: "polygon-3d",
+      symbolLayers: [
+        {
+          type: "fill",
+          size: ayer4DecorGlassCrossImport.features[0].properties.height,
+          material: {
+            color: ayer4DecorGlassCrossImport.features[0].properties.color,
+          },
+      pattern: {
+          type: "style",
+          style: "cross",
+        },
+     },
+    ],
+  },
+}; 
+
+
+const layer4DecorsGlass = new GeoJSONLayer({
+  url: "./api/layer4/decors_glass/decors_glass_cross.geojson",
+});
+layer4DecorsGlass.renderer = {
+  type: "simple",
+  symbol: {
+    type: "polygon-3d",
+    symbolLayers: [
+      {
+        type: "fill",
+        size: layer4DecorGlassImport.features[0].properties.height,
+        material: {
+          color: layer4DecorGlassImport.features[0].properties.color,
+        },
+   },
+  ],
+},
+};
+
   //Bệ Cửa sổ mặt trước
   const layer4Windowsill_front = new GeoJSONLayer({
     url: "./api/layer4/window/window_front/windowsill/windowsill_front.geojson",
@@ -5659,7 +5746,7 @@ require([
       //======layer2Layer2,
       layer2Layer2_front,
       layer2Decors_vertical,
-      layer2Decors_horizontal,
+      layer2Decors_front,
       // layer2Layer2_front_in,
       // layer2Layer2_right,
       // layer2Layer2_right_in,
@@ -5672,6 +5759,9 @@ require([
       layer3Layer3_top,
       layer3Layer3_left,
       layer4Layer4_front,
+      layer4Decors,
+      layer4Decors_vertical,
+      // layer4DecorsGlass,
       // layer4Layer4_wallGate,
       // layer4Layer4_columns,
       // layer4Layer4_balcony_smallcrossbar,
@@ -5682,7 +5772,7 @@ require([
       // layer4Layer4_columns,
       // layer4Layer4_columnsEntrace,
       layer4Layer4_right,
-      layer4Layer4_left,
+      // layer4Layer4_left,
       // layer4Layer4_back,
       // layer4Layer4_columnsRight,
       // layer4Layer4_columnsLeft,
