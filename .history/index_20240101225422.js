@@ -5668,7 +5668,7 @@ require([
       layer2Layer2_front,
       layer2Decors_vertical,
       // layer2Decors_horizontal,
-      layer2Layer2_front_in,
+      // layer2Layer2_front_in,
       // layer2Layer2_right,
       // layer2Layer2_right_in,
       // layer2Layer2_left,

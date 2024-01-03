@@ -611,14 +611,10 @@ require([
       type: "polygon-3d",
       symbolLayers: [
         {
-          type: "fill",
+          type: "extrude",
           size: layer2Decors_verticalImport.features[0].properties.height,
           material: {
             color: layer2Decors_verticalImport.features[0].properties.color,
-          },
-          pattern: {
-            type: "style",
-            style: "cross",
           },
         },
       ],
@@ -638,10 +634,6 @@ require([
           size: layer2Decors_horizontalImport.features[0].properties.height,
           material: {
             color: layer2Decors_horizontalImport.features[0].properties.color,
-          },
-          pattern: {
-            type: "style",
-            style: "cross",
           },
         },
       ],
@@ -5346,7 +5338,7 @@ require([
           },
           pattern: {
             type: "style",
-            style: "cross",
+            style: "diagonal-cross",
           },
         },
       ],
@@ -5667,8 +5659,8 @@ require([
       //======layer2Layer2,
       layer2Layer2_front,
       layer2Decors_vertical,
-      // layer2Decors_horizontal,
-      layer2Layer2_front_in,
+      layer2Decors_horizontal,
+      // layer2Layer2_front_in,
       // layer2Layer2_right,
       // layer2Layer2_right_in,
       // layer2Layer2_left,
@@ -5891,15 +5883,15 @@ require([
       // layer6Roof_bottom,
       // layer6Roof_bottom_pattern,
       // layer6Roof_top,
-      layer6Roof_top_pattern,
+      // layer6Roof_top_pattern,
       // layer6Roof_back,
       // layer6Wall_back,
       // layer6Roof_outline_back,
-      // layer6RoofDecor_base,
-      // layer6RoofDecor_onbase,
-      // layer6RoofDecor_outline,
-      // layer6RoofDecor_fill,
-      // layer6RoofDecor_fill_in,
+      layer6RoofDecor_base,
+      layer6RoofDecor_onbase,
+      layer6RoofDecor_outline,
+      layer6RoofDecor_fill,
+      layer6RoofDecor_fill_in,
       // // cylinderLayer
     ],
   });

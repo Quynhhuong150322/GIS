@@ -611,7 +611,7 @@ require([
       type: "polygon-3d",
       symbolLayers: [
         {
-          type: "fill",
+          type: "extrude",
           size: layer2Decors_verticalImport.features[0].properties.height,
           material: {
             color: layer2Decors_verticalImport.features[0].properties.color,
@@ -5667,8 +5667,8 @@ require([
       //======layer2Layer2,
       layer2Layer2_front,
       layer2Decors_vertical,
-      // layer2Decors_horizontal,
-      layer2Layer2_front_in,
+      layer2Decors_horizontal,
+      // layer2Layer2_front_in,
       // layer2Layer2_right,
       // layer2Layer2_right_in,
       // layer2Layer2_left,
