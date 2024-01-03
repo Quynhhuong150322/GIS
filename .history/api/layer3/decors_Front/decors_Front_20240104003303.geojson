@@ -1,0 +1,32 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "Building name": "Layer3 - Nền kính",
+                "height": 0,
+                "color": "##33CCCC",
+                "idb": "1"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            106.703852,
+                            10.784035,
+                            15
+                        ],
+                        [
+                            106.703725,
+                            10.784247,
+                            15
+                        ]
+                    ]
+                ]
+            },
+            "id": "pp1"
+        }
+    ]
+}
