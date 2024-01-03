@@ -4,9 +4,9 @@
     {
       "type": "Feature",
       "properties": {
-        "Building name": "Layer4 - Nền 4 đúng k",
+        "Building name": "Layer4 - Nền 4",
         "height": 15,
-        "color": "#56606f",
+        "color": "#c7c1b8",
         "idb": "1"
       },
       "geometry": {
