@@ -1,0 +1,53 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Building name": "Cylinder column",
+        "height": 1,
+        "width": 5,
+        "depth": 5,
+        "color": "#FFFFFF",
+        "idb": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.703655, 10.784249, 85]
+      },
+      "id": "pp1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Building name": "Cylinder column",
+        "height": 1,
+        "width": 6,
+        "depth": 6,
+        "color": "#FF00FF",
+        "idb": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.703764, 10.783883, 85]
+      },
+      "id": "pp1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Building name": "Cylinder column",
+        "height": 1,
+        "width": 6,
+        "depth": 6,
+        "color": "#FF00FF",
+        "idb": "1"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [106.70339, 10.783969, 85]
+      },
+      "id": "pp1"
+    }
+  ]
+}

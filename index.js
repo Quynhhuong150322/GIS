@@ -35,8 +35,8 @@ import layer3Layer3_topImport from "./api/layer3/layer3_top/layer3_top.geojson" 
 import layer3Layer3_leftImport from "./api/layer3/layer3_left/layer3_left.geojson" assert { type: "json" };
 
 import layer4Layer4_frontImport from "./api/layer4/layer4_front/layer4_front.geojson" assert { type: "json" };
-import layer4Layer4_columnsImport from "./api/layer4/layer4_columns/layer4_columns.geojson" assert { type: "json" };
-import layer4Layer4_wallGateImport from "./api/layer4/layer4_wallGate/layer4_wallGate.geojson" assert { type: "json" };
+import layer4CylinderColumn_front_upperImport from "./api/layer4/cylinderColumn/cylinderColumn_front/longCylinderColumn/cylinderColumns_front_upper.geojson" assert { type: "json" };
+
 import layer4Layer4_balcony_smallcrossbarImport from "./api/layer4/layer4_wallGate/layer4_balcony_smallcrossbar.geojson" assert { type: "json" };
 import layer4Layer4_balcony_crossbarImport from "./api/layer4/layer4_wallGate/layer4_balcony_crossbar.geojson" assert { type: "json" };
 import layer4Layer4_balcony_onbarImport from "./api/layer4/layer4_wallGate/layer4_balcony_onbar.geojson" assert { type: "json" };
@@ -48,7 +48,7 @@ import layer4Layer4_leftImport from "./api/layer4/layer4_left/layer4_left.geojso
 import layer4Layer4_backImport from "./api/layer4/layer4_back/layer4_back.geojson" assert { type: "json" };
 import layer4Layer4_columnsRightImport from "./api/layer4/layer4_columnsRight/layer4_columnsRight.geojson" assert { type: "json" };
 import layer4Layer4_columnsLeftImport from "./api/layer4/layer4_columnsLeft/layer4_columnsLeft.geojson" assert { type: "json" };
-
+import layer4Layer4_ColumnsUpperImport from "./api/layer4/cylinderColumn/cylinderColumn_front/shortCylinderColumn/cylinderColumns_upper.geojson" assert { type: "json" };
 import layer4Layer4_windowBalconyPianoRightImport from "./api/layer4/layer4_window_balcony_right/window_balcony_piano.geojson" assert { type: "json" };
 import layer4Layer4_windowBalconyBigPianoRightImport from "./api/layer4/layer4_window_balcony_right/window_balcony_big_piano.geojson" assert { type: "json" };
 import layer4Layer4_windowBalconyDecorsRightImport from "./api/layer4/layer4_window_balcony_right/window_balcony_decors.geojson" assert { type: "json" };
@@ -205,14 +205,15 @@ import layer4UpperWall2_surround_rightImport from "./api/layer4/layer4_upper/upp
 import layer4UpperWall2_surround_leftImport from "./api/layer4/layer4_upper/upperWall/upperWall_left/wall2_surround_left.geojson" assert { type: "json" };
 import layer4UpperWall_above_backImport from "./api/layer4/layer4_upper/upperWall/upperWall_back/wall_above_back.geojson" assert { type: "json" };
 
-import layer4CylinderColumn_frontImport from "./api/layer4/cylinderColumn/cylinderColumn_front/cylinderColumn_front.geojson" assert { type: "json" };
+import layer4CylinderColumn_frontImport from "./api/layer4/cylinderColumn/cylinderColumn_front/longCylinderColumn/cylinderColumn_front.geojson" assert { type: "json" };
 import layer4CylinderColumn_entranceImport from "./api/layer4/cylinderColumn/cylinderColumn_front/entrance/cylinderColumn_entrance.geojson" assert { type: "json" };
-import layer4CylinderColumn_plinth_entranceImport from "./api/layer4/cylinderColumn/cylinderColumn_front/entrance/cylinderColumn_plinth_entrance.geojson" assert { type: "json" };
+import layer4CylinderColumn_plinth_entranceImport from "./api/layer4/cylinderColumn/cylinderColumn_front/longCylinderColumn/cylinderColumn_plinth_entrance.geojson" assert { type: "json" };
 import layer4CylinderColumnFooter_frontImport from "./api/layer4/cylinderColumn/cylinderColumn_front/cylinderColumnFooter_front.geojson" assert { type: "json" };
-import layer4CylinderColumnFooter_surround_frontImport from "./api/layer4/cylinderColumn/cylinderColumn_front/cylinderColumnFooter_surround_front.geojson" assert { type: "json" };
+import layer4CylinderColumnFooter_surround_frontImport from "./api/layer4/cylinderColumn/cylinderColumn_front/shortCylinderColumn/cylinderColumnFooter_surround_front.geojson" assert { type: "json" };
 import layer4CylinderColumnFooter_surround_entranceImport from "./api/layer4/cylinderColumn/cylinderColumn_front/entrance/cylinderColumnFooter_surround_entrance.geojson" assert { type: "json" };
 import layer4CylinderColumnFooter_entranceImport from "./api/layer4/cylinderColumn/cylinderColumn_front/entrance/cylinderColumnFooter_entrance.geojson" assert { type: "json" };
 import layer4CylinderColumnHeader_entranceImport from "./api/layer4/cylinderColumn/cylinderColumn_front/entrance/cylinderColumnHeader_entrance.geojson" assert { type: "json" };
+// decors cylinder
 
 // import layer5Layer5Import from "./api/layer5/layer5.geojson" assert { type: "json" };
 //Layer 4 - Gate
@@ -922,19 +923,22 @@ require([
     },
   };
 
-  const layer4Layer4_wallGate = new GeoJSONLayer({
-    url: "./api/layer4/layer4_wallGate/layer4_wallGate.geojson",
+  const layer4Layer4_columns_upper = new GeoJSONLayer({
+    url: "./api/layer4/cylinderColumn/cylinderColumn_front/shortCylinderColumn/cylinderColumns_upper.geojson",
   });
-  layer4Layer4_wallGate.renderer = {
+  layer4Layer4_columns_upper.renderer = {
     type: "simple",
     symbol: {
-      type: "polygon-3d",
+      type: "point-3d",
       symbolLayers: [
         {
-          type: "extrude",
-          size: layer4Layer4_wallGateImport.features[0].properties.height,
+          type: "object",
+          height: layer4Layer4_ColumnsUpperImport.features[0].properties.height,
+          width: layer4Layer4_ColumnsUpperImport.features[0].properties.width,
+          depth: layer4Layer4_ColumnsUpperImport.features[0].properties.depth,
+          resource: { primitive: "cylinder" },
           material: {
-            color: layer4Layer4_wallGateImport.features[0].properties.color,
+            color: layer4Layer4_ColumnsUpperImport.features[0].properties.color,
           },
         },
       ],
@@ -1042,25 +1046,48 @@ require([
     },
   };
 
-  const layer4Layer4_columns = new GeoJSONLayer({
-    url: "./api/layer4/layer4_columns/layer4_columns.geojson",
+  const layer4CylinderColumn_front_upper = new GeoJSONLayer({
+    url: "./api/layer4/cylinderColumn/cylinderColumn_front/longCylinderColumn/cylinderColumns_front_upper.geojson",
   });
-  layer4Layer4_columns.renderer = {
+  // layer4Layer4_columns.renderer = {
+  //   type: "simple",
+  //   symbol: {
+  //     type: "polygon-3d",
+  //     symbolLayers: [
+  //       {
+  //         type: "extrude",
+  //         size: layer4Layer4_columnsImport.features[0].properties.height,
+  //         material: {
+  //           color: layer4Layer4_columnsImport.features[0].properties.color,
+  //         },
+  //       },
+  //     ],
+  //   },
+  // };
+  layer4CylinderColumn_front_upper.renderer = {
     type: "simple",
     symbol: {
-      type: "polygon-3d",
+      type: "point-3d",
       symbolLayers: [
         {
-          type: "extrude",
-          size: layer4Layer4_columnsImport.features[0].properties.height,
+          type: "object",
+          height:
+            layer4CylinderColumn_front_upperImport.features[0].properties
+              .height,
+          width:
+            layer4CylinderColumn_front_upperImport.features[0].properties.width,
+          depth:
+            layer4CylinderColumn_front_upperImport.features[0].properties.depth,
+          resource: { primitive: "cylinder" },
           material: {
-            color: layer4Layer4_columnsImport.features[0].properties.color,
+            color:
+              layer4CylinderColumn_front_upperImport.features[0].properties
+                .color,
           },
         },
       ],
     },
   };
-
   const layer4Layer4_columnsEntrace = new GeoJSONLayer({
     url: "./api/layer4/layer4_columnsEntrance/layer4_columnsEntrance.geojson",
   });
@@ -1123,14 +1150,18 @@ require([
   const layer4Layer4_back = new GeoJSONLayer({
     url: "./api/layer4/layer4_back/layer4_back.geojson",
   });
+
   layer4Layer4_back.renderer = {
     type: "simple",
     symbol: {
-      type: "polygon-3d",
+      type: "point-3d",
       symbolLayers: [
         {
-          type: "extrude",
-          size: layer4Layer4_backImport.features[0].properties.height,
+          type: "object",
+          height: layer4Layer4_backImport.features[0].properties.height,
+          width: layer4Layer4_backImport.features[0].properties.width,
+          depth: layer4Layer4_backImport.features[0].properties.depth,
+          resource: { primitive: "cone" },
           material: {
             color: layer4Layer4_backImport.features[0].properties.color,
           },
@@ -1138,7 +1169,6 @@ require([
       ],
     },
   };
-
   const layer4Layer4_columnsRight = new GeoJSONLayer({
     url: "./api/layer4/layer4_columnsRight/layer4_columnsRight.geojson",
   });
@@ -5050,7 +5080,7 @@ require([
   };
 
   const layer4CylinderColumn_front = new GeoJSONLayer({
-    url: "./api/layer4/cylinderColumn/cylinderColumn_front/cylinderColumn_front.geojson",
+    url: "./api/layer4/cylinderColumn/cylinderColumn_front/longCylinderColumn/cylinderColumn_front.geojson",
   });
   layer4CylinderColumn_front.renderer = {
     type: "simple",
@@ -5100,7 +5130,7 @@ require([
   };
 
   const layer4CylinderColumnFooter_surround_front = new GeoJSONLayer({
-    url: "./api/layer4/cylinderColumn/cylinderColumn_front/cylinderColumnFooter_surround_front.geojson",
+    url: "./api/layer4/cylinderColumn/cylinderColumn_front/shortCylinderColumn/cylinderColumnFooter_surround_front.geojson",
   });
   layer4CylinderColumnFooter_surround_front.renderer = {
     type: "simple",
@@ -5160,17 +5190,25 @@ require([
   };
 
   const layer4CylinderColumn_plinth_entrance = new GeoJSONLayer({
-    url: "./api/layer4/cylinderColumn/cylinderColumn_front/entrance/cylinderColumn_plinth_entrance.geojson",
+    url: "./api/layer4/cylinderColumn/cylinderColumn_front/longCylinderColumn/cylinderColumn_plinth_entrance.geojson",
   });
   layer4CylinderColumn_plinth_entrance.renderer = {
     type: "simple",
     symbol: {
-      type: "polygon-3d",
+      type: "point-3d",
       symbolLayers: [
         {
-          type: "extrude",
-          size: layer4CylinderColumn_plinth_entranceImport.features[0]
-            .properties.height,
+          type: "object",
+          height:
+            layer4CylinderColumn_plinth_entranceImport.features[0].properties
+              .height,
+          width:
+            layer4CylinderColumn_plinth_entranceImport.features[0].properties
+              .width,
+          depth:
+            layer4CylinderColumn_plinth_entranceImport.features[0].properties
+              .depth,
+          resource: { primitive: "cylinder" },
           material: {
             color:
               layer4CylinderColumn_plinth_entranceImport.features[0].properties
@@ -5180,7 +5218,6 @@ require([
       ],
     },
   };
-
   const layer4CylinderColumnFooter_front = new GeoJSONLayer({
     url: "./api/layer4/cylinderColumn/cylinderColumn_front/cylinderColumnFooter_front.geojson",
   });
@@ -5759,8 +5796,8 @@ require([
       layer4Decors,
       layer4Decors_vertical,
       // layer4DecorsGlass,
-      // layer4Layer4_wallGate,
-      // layer4Layer4_columns,
+      layer4Layer4_columns_upper,
+      layer4CylinderColumn_front_upper,
       // layer4Layer4_balcony_smallcrossbar,
       // layer4Layer4_balcony_crossbar,
       // layer4Layer4_balcony_onbar,
@@ -5770,7 +5807,7 @@ require([
       // layer4Layer4_columnsEntrace,
       layer4Layer4_right,
       // layer4Layer4_left,
-      // layer4Layer4_back,
+      layer4Layer4_back,
       // layer4Layer4_columnsRight,
       // layer4Layer4_columnsLeft,
       // layer4Layer4_columnsFooter,
@@ -5918,10 +5955,13 @@ require([
       layer4CylinderColumn_entrance,
       layer4CylinderColumnFooter_surround_front,
       // layer4CylinderColumnFooter_surround_entrance,
-      // layer4CylinderColumn_plinth_entrance,
+      layer4CylinderColumn_plinth_entrance,
       // layer4CylinderColumnFooter_front,
       // layer4CylinderColumnFooter_entrance,
       // layer4CylinderColumnHeader_entrance,
+
+      // decors
+      // layer4CylinderColumnFooter_surround_upper,
 
       // //layer4Balconybase_back,
       // layer4_windowBalconyPianoRight,

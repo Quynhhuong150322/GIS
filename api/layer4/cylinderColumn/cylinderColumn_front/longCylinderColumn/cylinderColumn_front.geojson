@@ -4,10 +4,10 @@
     {
       "type": "Feature",
       "properties": {
-        "Building name": "Cylinder column",
+        "Building name": "Trụ cao",
         "height": 170,
-        "width": 5,
-        "depth": 5,
+        "width": 4,
+        "depth": 4,
         "color": "#ffffff",
         "idb": "1"
       },
@@ -20,7 +20,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Building name": "Cylinder column",
+        "Building name": "Trụ cao",
         "height": 170,
         "width": 5,
         "depth": 5,
@@ -36,7 +36,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Building name": "Cylinder column",
+        "Building name": "Trụ cao",
         "height": 170,
         "width": 5,
         "depth": 5,
