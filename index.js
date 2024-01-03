@@ -264,9 +264,6 @@ import layer4PhotoImport from "./api/layer4/worshipphoto/photo.geojson" assert {
 import ayer4DecorGlassCrossImport from "./api/layer4/decors_glass/decors_glass_cross.geojson" assert { type: "json" };
 import layer4DecorGlassImport from "./api/layer4/decors_glass/decors_glass.geojson" assert { type: "json" };
 
-///
-import layer4DecorImport from "./api/layer4/layer4_front/decors/decors.geojson" assert { type: "json" };
-
 require([
   "esri/Map",
   "esri/views/SceneView",
@@ -304,31 +301,6 @@ require([
       popupTemplate: data.popupTemplate,
     });
   };
-
-  const layer4Decors = new GeoJSONLayer({
-    url: "./api/layer4/layer4_front/decors/decors.geojson",
-  });
-  layer4Decors.renderer = {
-    type: "simple",
-    symbol: {
-      type: "polygon-3d",
-      symbolLayers: [
-        {
-          type: "fill",
-          size: layer4DecorImport.features[0].properties.height,
-          material: {
-            color: layer4DecorImport.features[0].properties.color,
-          },
-          // pattern: {
-          //     type: "style",
-          //     style: "cross",
-          //   },
-        },
-      ],
-    },
-  };
-
-  console.log(layer4Decors.renderer);
 
   // Layer1
   // Nền 1
@@ -5756,7 +5728,6 @@ require([
       layer3Layer3_top,
       layer3Layer3_left,
       layer4Layer4_front,
-      layer4Decors,
       layer4Decors_vertical,
       // layer4DecorsGlass,
       // layer4Layer4_wallGate,
@@ -5769,7 +5740,7 @@ require([
       // layer4Layer4_columns,
       // layer4Layer4_columnsEntrace,
       layer4Layer4_right,
-      // layer4Layer4_left,
+      layer4Layer4_left,
       // layer4Layer4_back,
       // layer4Layer4_columnsRight,
       // layer4Layer4_columnsLeft,
