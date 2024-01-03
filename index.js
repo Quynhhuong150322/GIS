@@ -45,7 +45,7 @@ import layer4Layer4_balcony_glassImport from "./api/layer4/layer4_wallGate/layer
 import layer4Layer4_columnsEntranceImport from "./api/layer4/layer4_columnsEntrance/layer4_columnsEntrance.geojson" assert { type: "json" };
 import layer4Layer4_rightImport from "./api/layer4/layer4_right/layer4_right.geojson" assert { type: "json" };
 import layer4Layer4_leftImport from "./api/layer4/layer4_left/layer4_left.geojson" assert { type: "json" };
-import layer4Layer4_backImport from "./api/layer4/layer4_back/layer4_back.geojson" assert { type: "json" };
+import layer4Layer4_backImport from "./api/layer4/cylinderColumn/cylinderColumn_front/longCylinderColumn/layer4_back.geojson" assert { type: "json" };
 import layer4Layer4_columnsRightImport from "./api/layer4/layer4_columnsRight/layer4_columnsRight.geojson" assert { type: "json" };
 import layer4Layer4_columnsLeftImport from "./api/layer4/layer4_columnsLeft/layer4_columnsLeft.geojson" assert { type: "json" };
 import layer4Layer4_ColumnsUpperImport from "./api/layer4/cylinderColumn/cylinderColumn_front/shortCylinderColumn/cylinderColumns_upper.geojson" assert { type: "json" };
@@ -626,6 +626,7 @@ require([
           pattern: {
             type: "style",
             style: "cross",
+            size: 10,
           },
         },
       ],
@@ -1124,7 +1125,7 @@ require([
   };
 
   const layer4Layer4_back = new GeoJSONLayer({
-    url: "./api/layer4/layer4_back/layer4_back.geojson",
+    url: "./api/layer4/cylinderColumn/cylinderColumn_front/longCylinderColumn/layer4_back.geojson",
   });
 
   layer4Layer4_back.renderer = {
@@ -1182,6 +1183,7 @@ require([
           pattern: {
             type: "style",
             style: "cross",
+            size: 10,
           },
         },
       ],
@@ -5756,7 +5758,6 @@ require([
       //======layer2Layer2,
       layer2Layer2_front,
       layer2Decors_vertical,
-      // layer2Decors_horizontal,
       layer2Decors_front,
       layer2Layer2_front_in,
       // layer2Layer2_right,
@@ -5783,7 +5784,7 @@ require([
       // layer4Layer4_columnsEntrace,
       layer4Layer4_right,
 
-      // layer4Layer4_left,
+      layer4Layer4_left,
       layer4Layer4_back,
 
       // layer4Layer4_columnsRight,
@@ -5988,7 +5989,7 @@ require([
       // layer6Roof_bottom,
       // layer6Roof_bottom_pattern,
       // layer6Roof_top,
-      layer6Roof_top_pattern,
+      // layer6Roof_top_pattern,
       // layer6Roof_back,
       // layer6Wall_back,
       // layer6Roof_outline_back,
