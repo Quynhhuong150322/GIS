@@ -4,10 +4,10 @@
         {
             "type": "Feature",
             "properties": {
-                "Building name": "Layer2 - Dercos1",
+                "Building name": "Layer2 - Dercos",
                 "height": 0,
                 "width": 0.001,
-                "color": "#060606",
+                "color": "#56606f",
                 "idb": "1"
             },
             "geometry": {
@@ -16,22 +16,22 @@
                     [
                         [
                             106.703475,
-                            10.78421121,
+                            10.784212,
                             15
                         ],
                         [
-                            106.703475,
-                            10.784211211,
-                            22.4
+                            106.7034756,
+                            10.784212,
+                            15
                         ],
                         [
-                            106.703728,
-                            10.784211211,
-                            22.4
+                            106.7034756,
+                            10.784210,
+                            15
                         ],
                         [
-                            106.703728,
-                            10.78421121,
+                            106.703476,
+                            10.784210,
                             15
                         ]
                     ]
@@ -42,9 +42,9 @@
         {
             "type": "Feature",
             "properties": {
-                "Building name": "Layer2 - Dercos2",
+                "Building name": "Layer2 - Dercos",
                 "height": 0,
-                "color": "#060606",
+                "color": "#56606f",
                 "idb": "1"
             },
             "geometry": {
@@ -79,9 +79,9 @@
         {
             "type": "Feature",
             "properties": {
-                "Building name": "Layer2 - Dercos3",
+                "Building name": "Layer2 - Dercos",
                 "height": 0,
-                "color": "#060606",
+                "color": "#56606f",
                 "idb": "1"
             },
             "geometry": {
