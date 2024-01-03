@@ -1,0 +1,47 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "Building name": "Layer2 - Dercos dọc mặt trước",
+                "height": 7.4,
+                "color": "#FFFF00",
+                "idb": "1"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            106.703475,
+                            10.784211,
+                            15
+                        ],
+                        [
+                            106.703727,
+                            10.784212,
+                            15
+                        ],
+                        [
+                            106.703727,
+                            10.784212,
+                            22.4
+                        ],
+                        [
+                            106.703475,
+                            10.784211,
+                            22.4
+                        ],
+                        [
+                            106.703475,
+                            10.784211,
+                            15
+                        ]
+                    ]
+                ]
+            },
+            "id": "pp1"
+        }
+    ]
+}

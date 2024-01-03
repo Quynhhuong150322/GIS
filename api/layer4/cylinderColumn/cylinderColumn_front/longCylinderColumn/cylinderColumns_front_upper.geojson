@@ -4,48 +4,48 @@
     {
       "type": "Feature",
       "properties": {
-        "Building name": "Hình chóp của trụ cao",
-        "height": 3.5,
-        "width": 4.5,
-        "depth": 4.5,
+        "Building name": "Gờ trụ cao",
+        "height": 1,
+        "width": 6,
+        "depth": 6,
         "color": "#ffffff",
         "idb": "1"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [106.703471, 10.78425, 171]
+        "coordinates": [106.703471, 10.78425, 170]
       },
       "id": "pp1"
     },
     {
       "type": "Feature",
       "properties": {
-        "Building name": "Hình chóp của trụ cao",
-        "height": 5,
-        "width": 1,
-        "depth": 1,
+        "Building name": "Gờ trụ cao",
+        "height": 3,
+        "width": 6,
+        "depth": 6,
         "color": "#ff00ff",
         "idb": "1"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [106.703856, 10.784037, 171]
+        "coordinates": [106.703856, 10.784037, 170]
       },
       "id": "pp1"
     },
     {
       "type": "Feature",
       "properties": {
-        "Building name": "Hình chóp của trụ cao",
-        "height": 10,
-        "width": 1,
-        "depth": 1,
+        "Building name": "Gờ trụ cao",
+        "height": 3,
+        "width": 6,
+        "depth": 6,
         "color": "#ff00ff",
         "idb": "1"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [106.703481, 10.783816, 171]
+        "coordinates": [106.703481, 10.783816, 170]
       },
       "id": "pp1"
     }
