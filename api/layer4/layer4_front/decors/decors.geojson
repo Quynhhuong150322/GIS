@@ -1,26 +1,25 @@
 {
-    "type": "FeatureCollection",
-    "features": [
-        {
-            "type": "Feature",
-            "properties": {
-                "Building name": "Layer4 - Dercos",
-                "height": 0,
-                "color": "#56606f",
-                "idb": "1"
-            },
-            "geometry": {
-                "type": "Polygon",
-                "coordinates": [
-                    [
-                        [106.703471, 10.784244, 71.99],
-                        [106.703471, 10.784244, 110],
-                        [106.703651, 10.784248, 110],
-                        [106.703651, 10.784248, 71.99]
-                    ]
-                ]
-            },
-            "id": "pp1"
-        
-      }
-]}
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Building name": "Layer4 - Dercos",
+        "height": 10,
+        "width": 20,
+        "color": "#ffffff",
+        "idb": "1"
+      },
+      "geometry": {
+        "type": "String",
+        "coordinates": [
+          [
+            [106.703656, 10.784251, 40],
+            [106.703777, 10.784048, 20]
+          ]
+        ]
+      },
+      "id": "pp1"
+    }
+  ]
+}

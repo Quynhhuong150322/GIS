@@ -5,15 +5,15 @@
       "type": "Feature",
       "properties": {
         "Building name": "Cylinder column",
-        "height": 0.3,
-        "width": 1.25,
-        "depth": 1.25,
-        "color": "#bfbcbc",
+        "height": 85,
+        "width": 5,
+        "depth": 5,
+        "color": "#ffffff",
         "idb": "1"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [106.70308088814679, 10.77659863680278, 15.56]
+        "coordinates": [106.703655, 10.784249, 0]
       },
       "id": "pp1"
     },
@@ -21,15 +21,15 @@
       "type": "Feature",
       "properties": {
         "Building name": "Cylinder column",
-        "height": 0.3,
-        "width": 1.25,
-        "depth": 1.25,
-        "color": "#bfbcbc",
+        "height": 85,
+        "width": 5,
+        "depth": 5,
+        "color": "#ffffff",
         "idb": "1"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [106.70309260612507, 10.77659863680256, 15.56]
+        "coordinates": [106.703764, 10.783883, 0]
       },
       "id": "pp1"
     },
@@ -37,31 +37,15 @@
       "type": "Feature",
       "properties": {
         "Building name": "Cylinder column",
-        "height": 0.3,
-        "width": 1.25,
-        "depth": 1.25,
-        "color": "#bfbcbc",
+        "height": 85,
+        "width": 5,
+        "depth": 5,
+        "color": "#ffffff",
         "idb": "1"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [106.70317106165739, 10.776598636794901, 15.56]
-      },
-      "id": "pp1"
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Building name": "Cylinder column",
-        "height": 0.3,
-        "width": 1.25,
-        "depth": 1.25,
-        "color": "#bfbcbc",
-        "idb": "1"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [106.70318277963568, 10.776598636795121, 15.56]
+        "coordinates": [106.70339, 10.783969, 0]
       },
       "id": "pp1"
     }
