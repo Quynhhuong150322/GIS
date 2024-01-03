@@ -4,10 +4,10 @@
     {
       "type": "Feature",
       "properties": {
-        "Building name": "Cylinder column",
+        "Building name": "Gờ thấp",
         "height": 85,
-        "width": 5,
-        "depth": 5,
+        "width": 4,
+        "depth": 4,
         "color": "#ffffff",
         "idb": "1"
       },
@@ -20,7 +20,7 @@
     {
       "type": "Feature",
       "properties": {
-        "Building name": "Cylinder column",
+        "Building name": "Gờ thấp",
         "height": 85,
         "width": 5,
         "depth": 5,
@@ -36,11 +36,11 @@
     {
       "type": "Feature",
       "properties": {
-        "Building name": "Cylinder column",
+        "Building name": "Gờ thấp",
         "height": 85,
         "width": 5,
         "depth": 5,
-        "color": "#ffffff",
+        "color": "#FF00FF",
         "idb": "1"
       },
       "geometry": {
@@ -48,6 +48,7 @@
         "coordinates": [106.70339, 10.783969, 0]
       },
       "id": "pp1"
-    }
+    },
+    {}
   ]
 }
