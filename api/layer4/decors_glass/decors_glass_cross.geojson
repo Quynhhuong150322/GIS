@@ -1,0 +1,134 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "Building name": "Layer4 - Dercos - 1",
+                "height": 0,
+                "color": "#56606f",
+                "idb": "1"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [106.703682, 10.7841491, 141.61],
+                        [106.703682, 10.78414921, 155],
+                        [106.703756, 10.78404221, 155],
+                        [106.703756, 10.7840421, 141.61]
+                    ]
+                ]
+            },
+            "id": "pp1"
+        
+      },{
+        "type": "Feature",
+        "properties": {
+            "Building name": "Layer4 - Dercos -2",
+            "height": 0,
+            "color": "#56606f",
+            "idb": "1"
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [106.7037563, 10.78404221, 141.61],
+                    [106.7037563, 10.784042221, 155],
+                    [106.703688, 10.7838971, 155],
+                    [106.703688, 10.783897, 141.61]
+                ]
+            ]
+        },
+        "id": "pp1"
+    
+        },{
+            "type": "Feature",
+            "properties": {
+                "Building name": "Layer4 - Dercos ",
+                "height": 0,
+                "color": "#56606f",
+                "idb": "1"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [106.703528, 10.7838969, 141.61],
+                        [106.703528, 10.78389692, 155],
+                        [106.703462, 10.78404222, 155],
+                        [106.703462, 10.7840422, 141.61]
+
+                    ]
+                ]
+            },
+            "id": "pp1"
+
+        },{
+            "type": "Feature",
+            "properties": {
+                "Building name": "Layer4 - Dercos - 3",
+                "height": 0,
+                "color": "#56606f",
+                "idb": "1"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [106.703689,10.7838984, 141.61],
+                        [106.703689,10.78389824, 155],
+                        [106.70353, 10.78389524, 155],
+                        [106.70353, 10.7838954, 141.61]
+
+                    ]
+                ]
+            },
+            "id": "pp1"
+
+        },{
+            "type": "Feature",
+            "properties": {
+                "Building name": "Layer4 - Dercos - 5",
+                "height": 0,
+                "color": "#56606f",
+                "idb": "1"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [106.7034606, 10.78404, 141.61],
+                        [106.703461, 10.784042, 155],
+                        [106.703516, 10.784147232, 155],
+                        [106.703516, 10.78414723, 141.61]
+                    ]
+                ]
+            },
+            "id": "pp1"
+
+        },{
+            "type": "Feature",
+            "properties": {
+                "Building name": "Layer4 - Dercos - 6",
+                "height": 0,
+                "color": "#56606f",
+                "idb": "1"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [106.703516, 10.7841472, 141.61],
+                        [106.703516, 10.78414722, 155],
+                        [106.703682, 10.78414922, 155],
+                        [106.703682, 10.7841492, 141.61]
+                    ]
+                ]
+            },
+            "id": "pp1"
+
+        }
+    ]
+}
