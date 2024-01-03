@@ -6,9 +6,7 @@
       "properties": {
         "Building name": "Layer4 - Nền 4",
         "height": 69.62,
-        "stroke": "red",
-        "fill": "red",
-        "fill-opacity": 1,
+        "color": "#C8C2",
         "idb": "1"
       },
       "geometry": {
@@ -27,7 +25,6 @@
           ]
         ]
       },
-      
       "id": "pp1"
     }
   ]
