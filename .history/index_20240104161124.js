@@ -861,7 +861,7 @@ require([
   };
   // thanh trắng 
   const layer3_top_Cylinder = new GeoJSONLayer({
-    url: "./api/layer3/layer3_top/layer3_top_Cylinder.geojson",
+    url: "./api/layer3/layer3_top/layer3_top.geojson",
   });
   layer3_top_Cylinder.renderer = {
     type: "simple",
@@ -5762,15 +5762,15 @@ require([
     layers: [
       layer1Layer1,
       // decors1Layer, //trang trí
-      // decors1_sharp_brickLayer, //trang trí 
+      // decors1_sharp_brickLayer, //trang trí
       // decors1_upLayer, //trang trí
-      decors1_tombLayer, //trang trí
+      // decors1_tombLayer, //trang trí
       // decors_back1Layer,
       // decors1_sharp_brick_backLayer,
       // decors1_up_backLayer,
       decors1_tomb_backLayer,
       // decors_right1Layer,
-      decors1_sharp_brick_rightLayer,
+      // decors1_sharp_brick_rightLayer,
       decors1_up_rightLayer,
       // decors1_tomb_rightLayer,
       stair1Layer, //Cầu thang
@@ -5956,10 +5956,10 @@ require([
       // layer4CylinderColumn_plinth_entrance,
 
 
-      layer4CylinderColumnFooter_surround_entrance,
-      layer4CylinderColumnFooter_front,
-      layer4CylinderColumnFooter_entrance,
-      layer4CylinderColumnHeader_entrance,
+      // layer4CylinderColumnFooter_surround_entrance,
+      // layer4CylinderColumnFooter_front,
+      // layer4CylinderColumnFooter_entrance,
+      // layer4CylinderColumnHeader_entrance,
 
       // decors
       // layer4CylinderColumnFooter_surround_upper,

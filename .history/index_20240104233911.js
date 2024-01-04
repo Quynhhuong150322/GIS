@@ -5761,16 +5761,16 @@ require([
     ground: "world-elevation",
     layers: [
       layer1Layer1,
-      // decors1Layer, //trang trí
+      decors1Layer, //trang trí
       // decors1_sharp_brickLayer, //trang trí 
       // decors1_upLayer, //trang trí
-      decors1_tombLayer, //trang trí
+      // decors1_tombLayer, //trang trí
       // decors_back1Layer,
       // decors1_sharp_brick_backLayer,
       // decors1_up_backLayer,
       decors1_tomb_backLayer,
       // decors_right1Layer,
-      decors1_sharp_brick_rightLayer,
+      // decors1_sharp_brick_rightLayer,
       decors1_up_rightLayer,
       // decors1_tomb_rightLayer,
       stair1Layer, //Cầu thang

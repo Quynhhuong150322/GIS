@@ -5764,7 +5764,7 @@ require([
       // decors1Layer, //trang trí
       // decors1_sharp_brickLayer, //trang trí 
       // decors1_upLayer, //trang trí
-      decors1_tombLayer, //trang trí
+      // decors1_tombLayer, //trang trí
       // decors_back1Layer,
       // decors1_sharp_brick_backLayer,
       // decors1_up_backLayer,
