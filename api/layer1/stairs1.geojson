@@ -63,6 +63,69 @@
         ]
       },
       "id": "pp1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Building name": "Layer1 - Nền 1 - Decor ngang bên trái - 1",
+        "height": 1.5,
+        "color": "#ff00ff",
+        "idb": "1"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [106.703826, 10.784219, 26.5],
+            [106.703963, 10.784077, 26.5],
+            [106.703953, 10.784067, 26.5],
+            [106.703816, 10.784212, 26.5]
+          ]
+        ]
+      },
+      "id": "pp1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Building name": "Layer1 - Nền 1 - Decor ngang bên trái - 2",
+        "height": 1.5,
+        "color": "#ff00ff",
+        "idb": "1"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [106.703826, 10.784219, 22],
+            [106.703963, 10.784077, 22],
+            [106.703953, 10.784067, 22],
+            [106.703816, 10.784212, 22]
+          ]
+        ]
+      },
+      "id": "pp1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Building name": "Layer1 - Nền 1 - Decor ngang bên trái - 3",
+        "height": 1.5,
+        "color": "#ff00ff",
+        "idb": "1"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [106.703826, 10.784219, 18],
+            [106.703963, 10.784077, 18],
+            [106.703953, 10.784067, 18],
+            [106.703816, 10.784212, 18]
+          ]
+        ]
+      },
+      "id": "pp1"
     }
   ]
 }
