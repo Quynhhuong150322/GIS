@@ -21,8 +21,8 @@ import layer2Decors_verticalImport from "./api/layer2/decors_front/decors_vertic
 import layer2Decors_frontImport from "./api/layer2/decors_front/decors_front.geojson" assert { type: "json" };
 
 import layer2Layer2_front_inImport from "./api/layer2/layer2_front/layer2_front_in.geojson" assert { type: "json" };
-import layer2Layer2_rightImport from "./api/layer1/roof/layer2_right.geojson" assert { type: "json" };
-import layer2Layer2_right_inImport from "./api/layer1/roof/layer2_right_in.geojson" assert { type: "json" };
+import layer2Layer2_rightImport from "./api/layer2/roof/layer2_right.geojson" assert { type: "json" };
+import layer2Layer2_right_inImport from "./api/layer2/roof/layer2_right_in.geojson" assert { type: "json" };
 import layer2Layer2_backImport from "./api/layer2/layer2_back/layer2_back.geojson" assert { type: "json" };
 import layer2Layer2_back_inImport from "./api/layer2/layer2_back/layer2_back_in.geojson" assert { type: "json" };
 import layer2Layer2_leftImport from "./api/layer2/layer2_left/layer2_left.geojson" assert { type: "json" };
@@ -680,7 +680,7 @@ require([
   // Layer2
   // Nền 2 - mặt phải
   const layer2Layer2_right = new GeoJSONLayer({
-    url: "./api/layer1/roof/layer2_right.geojson",
+    url: "./api/layer2/roof/layer2_right.geojson",
   });
   layer2Layer2_right.renderer = {
     type: "simple",
@@ -699,7 +699,7 @@ require([
   };
 
   const layer2Layer2_right_in = new GeoJSONLayer({
-    url: "./api/layer1/roof/layer2_right_in.geojson",
+    url: "./api/layer2/roof/layer2_right_in.geojson",
   });
   layer2Layer2_right_in.renderer = {
     type: "simple",
@@ -861,7 +861,7 @@ require([
   };
   // thanh trắng 
   const layer3_top_Cylinder = new GeoJSONLayer({
-    url: "./api/layer3/layer3_top/layer3_top_Cylinder.geojson",
+    url: "./api/layer3/layer3_top/layer3_top.geojson",
   });
   layer3_top_Cylinder.renderer = {
     type: "simple",
@@ -5762,15 +5762,15 @@ require([
     layers: [
       layer1Layer1,
       // decors1Layer, //trang trí
-      // decors1_sharp_brickLayer, //trang trí 
+      // decors1_sharp_brickLayer, //trang trí
       // decors1_upLayer, //trang trí
-      decors1_tombLayer, //trang trí
+      // decors1_tombLayer, //trang trí
       // decors_back1Layer,
       // decors1_sharp_brick_backLayer,
       // decors1_up_backLayer,
       decors1_tomb_backLayer,
       // decors_right1Layer,
-      decors1_sharp_brick_rightLayer,
+      // decors1_sharp_brick_rightLayer,
       decors1_up_rightLayer,
       // decors1_tomb_rightLayer,
       stair1Layer, //Cầu thang
@@ -5956,10 +5956,10 @@ require([
       // layer4CylinderColumn_plinth_entrance,
 
 
-      layer4CylinderColumnFooter_surround_entrance,
-      layer4CylinderColumnFooter_front,
-      layer4CylinderColumnFooter_entrance,
-      layer4CylinderColumnHeader_entrance,
+      // layer4CylinderColumnFooter_surround_entrance,
+      // layer4CylinderColumnFooter_front,
+      // layer4CylinderColumnFooter_entrance,
+      // layer4CylinderColumnHeader_entrance,
 
       // decors
       // layer4CylinderColumnFooter_surround_upper,
