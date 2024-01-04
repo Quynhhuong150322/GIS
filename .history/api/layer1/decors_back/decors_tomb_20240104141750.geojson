@@ -1,0 +1,79 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Building name": "Layer1 - Gờ 2 bên (bên trái)",
+        "height": 30,
+        "color": "#ffffff",
+        "idb": "1"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.703655,
+              10.784248,
+              37
+            ],
+            [
+              106.703654,
+              10.784221,
+              37
+            ],
+            [
+              106.703601,
+              10.784222,
+              37
+            ],
+            [
+              106.703601,
+              10.784248,
+              37
+            ]
+          ]
+        ]
+      },
+      "id": "pp1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Building name": "Layer1 - Gờ 2 bên (bên phải)",
+        "height": 30,
+        "color": "#ffffff",
+        "idb": "1"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              106.703355,
+              10.784248,
+              37
+            ],
+            [
+              106.703354,
+              10.784221,
+              37
+            ],
+            [
+              106.703401,
+              10.784222,
+              37
+            ],
+            [
+              106.703401,
+              10.784248,
+              37
+            ]
+          ]
+        ]
+      },
+      "id": "pp1"
+    }
+  ]
+}
