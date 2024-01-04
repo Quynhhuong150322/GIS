@@ -21,8 +21,8 @@ import layer2Decors_verticalImport from "./api/layer2/decors_front/decors_vertic
 import layer2Decors_frontImport from "./api/layer2/decors_front/decors_front.geojson" assert { type: "json" };
 
 import layer2Layer2_front_inImport from "./api/layer2/layer2_front/layer2_front_in.geojson" assert { type: "json" };
-import layer2Layer2_rightImport from "./api/layer2/layer2_right/layer2_right.geojson" assert { type: "json" };
-import layer2Layer2_right_inImport from "./api/layer2/layer2_right/layer2_right_in.geojson" assert { type: "json" };
+import layer2Layer2_rightImport from "./api/layer2/roof/layer2_right.geojson" assert { type: "json" };
+import layer2Layer2_right_inImport from "./api/layer2/roof/layer2_right_in.geojson" assert { type: "json" };
 import layer2Layer2_backImport from "./api/layer2/layer2_back/layer2_back.geojson" assert { type: "json" };
 import layer2Layer2_back_inImport from "./api/layer2/layer2_back/layer2_back_in.geojson" assert { type: "json" };
 import layer2Layer2_leftImport from "./api/layer2/layer2_left/layer2_left.geojson" assert { type: "json" };
@@ -626,7 +626,6 @@ require([
           pattern: {
             type: "style",
             style: "cross",
-            size: 10,
           },
         },
       ],
@@ -680,7 +679,7 @@ require([
   // Layer2
   // Nền 2 - mặt phải
   const layer2Layer2_right = new GeoJSONLayer({
-    url: "./api/layer2/layer2_right/layer2_right.geojson",
+    url: "./api/layer2/roof/layer2_right.geojson",
   });
   layer2Layer2_right.renderer = {
     type: "simple",
@@ -699,7 +698,7 @@ require([
   };
 
   const layer2Layer2_right_in = new GeoJSONLayer({
-    url: "./api/layer2/layer2_right/layer2_right_in.geojson",
+    url: "./api/layer2/roof/layer2_right_in.geojson",
   });
   layer2Layer2_right_in.renderer = {
     type: "simple",
@@ -5754,14 +5753,14 @@ require([
       // decors1_sharp_brick_rightLayer,
       decors1_up_rightLayer,
       // decors1_tomb_rightLayer,
-      // stair1Layer,     //Cầu thang
+      stair1Layer, //Cầu thang
       //======layer2Layer2,
-      layer2Layer2_front,
+      // layer2Layer2_front,
       layer2Decors_vertical,
       layer2Decors_front,
       layer2Layer2_front_in,
-      // layer2Layer2_right,
-      // layer2Layer2_right_in,
+      layer2Layer2_right,
+      layer2Layer2_right_in,
       // layer2Layer2_left,
       // layer2Layer2_left_in,
       // layer2Layer2_back,
