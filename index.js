@@ -31,6 +31,7 @@ import layer3Layer3Import from "./api/layer3/layer3_front/layer3_front.geojson" 
 import layer3Layer3_rightImport from "./api/layer3/layer3_right/layer3_right.geojson" assert { type: "json" };
 
 import layer3Layer3_topImport from "./api/layer3/layer3_top/layer3_top.geojson" assert { type: "json" };
+import layer3Layer3_topCylinderImport from "./api/layer3/layer3_top/layer3_top_Cylinder.geojson" assert { type: "json" };
 
 import layer3Layer3_leftImport from "./api/layer3/layer3_left/layer3_left.geojson" assert { type: "json" };
 
@@ -853,6 +854,25 @@ require([
           size: layer3Layer3_topImport.features[0].properties.height,
           material: {
             color: layer3Layer3_topImport.features[0].properties.color,
+          },
+        },
+      ],
+    },
+  };
+  // thanh trắng 
+  const layer3_top_Cylinder = new GeoJSONLayer({
+    url: "./api/layer3/layer3_top/layer3_top.geojson",
+  });
+  layer3_top_Cylinder.renderer = {
+    type: "simple",
+    symbol: {
+      type: "polygon-3d",
+      symbolLayers: [
+        {
+          type: "extrude",
+          size: layer3Layer3_topCylinderImport.features[0].properties.height,
+          material: {
+            color: layer3Layer3_topCylinderImport.features[0].properties.color,
           },
         },
       ],
@@ -5768,6 +5788,7 @@ require([
       layer3Layer3,
       layer3Layer3_right,
       layer3Layer3_top,
+      layer3_top_Cylinder,
       layer3Layer3_left,
       layer4Layer4_front,
       layer4Decors_vertical,

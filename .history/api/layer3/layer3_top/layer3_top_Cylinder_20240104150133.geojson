@@ -1,0 +1,47 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "Building name": "thanh trắng - Layer3",
+                "height": 2,
+                "color": "#ffffff",
+                "idb": "1"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            106.703740,
+                            10.784249,
+                            65
+                        ],
+                        [
+                            106.703723,
+                            10.784249,
+                            65
+                        ],
+                        [
+                            106.703723,
+                            10.784247,
+                            65
+                        ],
+                        [
+                            106.703740,
+                            10.784247,
+                            65
+                        ],
+                        [
+                            106.703740,
+                            10.784249,
+                            65
+                        ]
+                    ]
+                ]
+            },
+            "id": "pp1"
+        }
+    ]
+}
