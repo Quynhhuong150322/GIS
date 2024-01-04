@@ -1,0 +1,43 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "Building name": "Tường Layer3",
+                "height": 0,
+                "width": 0.001,
+                "color": "#060606",
+                "idb": "1"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            106.703475,
+                            10.78421121,
+                            15
+                        ],
+                        [
+                            106.703475,
+                            10.784211211,
+                            22.4
+                        ],
+                        [
+                            106.703728,
+                            10.784211211,
+                            22.4
+                        ],
+                        [
+                            106.703728,
+                            10.78421121,
+                            15
+                        ]
+                    ]
+                ]
+            },
+            "id": "pp1"
+        }
+    ]
+}
