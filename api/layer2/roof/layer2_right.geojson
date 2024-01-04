@@ -1,0 +1,152 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Building name": "Phần nhô ra của nhà 2 bên",
+        "height": 0,
+        "color": "#ffffff",
+        "idb": "1"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [106.703761, 10.784182, 28],
+            [106.703825, 10.78422, 28],
+            [106.703821, 10.784224, 30],
+            [106.70376, 10.784189, 30]
+          ]
+        ]
+      },
+      "id": "pp1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Building name": "Phần nhô ra của nhà 2 bên",
+        "height": 0,
+        "color": "#ffffff",
+        "idb": "1"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [106.703825, 10.78422, 28],
+            [106.703962, 10.784077, 28],
+            [106.703966, 10.784079, 30],
+            [106.703821, 10.784224, 30]
+          ]
+        ]
+      },
+      "id": "pp1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Building name": "Phần nhô ra của nhà 2 bên",
+        "height": 0,
+        "color": "#ffffff",
+        "idb": "1"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [106.703962, 10.784077, 28],
+            [106.703733, 10.783811, 28],
+            [106.703735, 10.783807, 30],
+            [106.703966, 10.784079, 30]
+          ]
+        ]
+      },
+      "id": "pp1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Building name": "Phần nhô ra của nhà 2 bên",
+        "height": 0,
+        "color": "#ffffff",
+        "idb": "1"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [106.703733, 10.783811, 28],
+            [106.703481, 10.783805, 28],
+            [106.703481, 10.783802, 30],
+            [106.703735, 10.783807, 30]
+          ]
+        ]
+      },
+      "id": "pp1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Building name": "Phần nhô ra của nhà 2 bên",
+        "height": 0,
+        "color": "#ffffff",
+        "idb": "1"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [106.703481, 10.783805, 28],
+            [106.703241, 10.784069, 28],
+            [106.703237, 10.784066, 30],
+            [106.703481, 10.783802, 30]
+          ]
+        ]
+      },
+      "id": "pp1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Building name": "Phần nhô ra của nhà 2 bên",
+        "height": 0,
+        "color": "#ffffff",
+        "idb": "1"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [106.703241, 10.784069, 28],
+            [106.703373, 10.78421, 28],
+            [106.703373, 10.784214, 30],
+            [106.703237, 10.784066, 30]
+          ]
+        ]
+      },
+      "id": "pp1"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "Building name": "Phần nhô ra của nhà 2 bên",
+        "height": 0,
+        "color": "#ffffff",
+        "idb": "1"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [106.703373, 10.78421, 28],
+            [106.703438, 10.784181, 28],
+            [106.703441, 10.784183, 30],
+            [106.703373, 10.784214, 30]
+          ]
+        ]
+      },
+      "id": "pp1"
+    }
+  ]
+}
