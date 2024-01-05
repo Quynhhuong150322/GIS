@@ -5761,30 +5761,19 @@ require([
     ground: "world-elevation",
     layers: [
       layer1Layer1,
-      // decors1Layer, //trang trí
-      // decors1_sharp_brickLayer, //trang trí 
-      // decors1_upLayer, //trang trí
       decors1_tombLayer, //trang trí
-      // decors_back1Layer,
-      // decors1_sharp_brick_backLayer,
-      // decors1_up_backLayer,
       decors1_tomb_backLayer,
-      // decors_right1Layer,
       decors1_sharp_brick_rightLayer,
       decors1_up_rightLayer,
-      // decors1_tomb_rightLayer,
       stair1Layer, //Cầu thang
+
       //======layer2Layer2,
-      // layer2Layer2_front,
       layer2Decors_vertical,
       layer2Decors_front,
       layer2Layer2_front_in,
       layer2Layer2_right,
       layer2Layer2_right_in,
-      // layer2Layer2_left,
-      // layer2Layer2_left_in,
-      // layer2Layer2_back,
-      // layer2Layer2_back_in,
+
       layer3Layer3,
       layer3Layer3_right,
       layer3Layer3_top,
@@ -5792,9 +5781,33 @@ require([
       layer3Layer3_left,
       layer4Layer4_front,
       layer4Decors_vertical,
-      // layer4DecorsGlass,
       layer4Layer4_columns_upper,
       layer4CylinderColumn_front_upper,
+      layer4Layer4_right,
+      layer4Layer4_left,
+      layer4Layer4_back,
+      layer4_upperRimBack,
+      layer4CylinderColumnFooter_surround_entrance,
+      layer4CylinderColumnFooter_front,
+      layer4CylinderColumnFooter_entrance,
+      layer4CylinderColumnHeader_entrance,
+
+      // decors1Layer, //trang trí
+      decors1_sharp_brickLayer, //trang trí
+      // decors1_upLayer, //trang trí
+      // decors_back1Layer,
+      // decors1_sharp_brick_backLayer,
+      // decors1_up_backLayer,
+      // decors_right1Layer,
+      // decors1_tomb_rightLayer,
+
+      // layer2Layer2_front,
+      // layer2Layer2_left,
+      // layer2Layer2_left_in,
+      // layer2Layer2_back,
+      // layer2Layer2_back_in,
+
+      // layer4DecorsGlass,
       // layer4Layer4_balcony_smallcrossbar,
       // layer4Layer4_balcony_crossbar,
       // layer4Layer4_balcony_onbar,
@@ -5802,14 +5815,10 @@ require([
       // layer4Layer4_balcony_glass,
       // layer4Layer4_columns,
       // layer4Layer4_columnsEntrace,
-      layer4Layer4_right,
-
-      layer4Layer4_left,
-      layer4Layer4_back,
 
       // layer4Layer4_columnsRight,
       // layer4Layer4_columnsLeft,
-      // layer4Layer4_columnsFooter,
+      layer4Layer4_columnsFooter,
       // layer4Layer4_columnsFooter_Back,
       // layer4Layer4_columnsFooter_Right,
       // layer4Layer4_columnsFooter_Left,
@@ -5827,7 +5836,6 @@ require([
       // layer4Layer4_columnsHeader_aboveLeft,
       // layer4_upperRimFront,
       // layer4_upperRimRight,
-      layer4_upperRimBack,
       // layer4_upperRimLeft,
       // layer4UpperWindowBorder_leftRight_right,
       // layer4UpperWindowBorder_top_right,
@@ -5950,16 +5958,12 @@ require([
       // layer4UpperWall2_surround_left,
       // layer4UpperWall_above_back,
 
-      // layer4CylinderColumn_front,
-      // layer4CylinderColumn_entrance,
-      // layer4CylinderColumnFooter_surround_front,
-      // layer4CylinderColumn_plinth_entrance,
+      layer4CylinderColumn_front,
+      layer4CylinderColumn_entrance,
+      layer4CylinderColumnFooter_surround_front,
+      layer4CylinderColumn_plinth_entrance,
 
 
-      layer4CylinderColumnFooter_surround_entrance,
-      layer4CylinderColumnFooter_front,
-      layer4CylinderColumnFooter_entrance,
-      layer4CylinderColumnHeader_entrance,
 
       // decors
       // layer4CylinderColumnFooter_surround_upper,

@@ -1,0 +1,803 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "Building name": "thanh trắng - Layer3 - 1",
+                "height": 10,
+                "color": "#ffffff",
+                "idb": "1"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            106.703720,
+                            10.784249,
+                            62
+                        ],
+                        [
+                            106.703723,
+                            10.784249,
+                            62
+                        ],
+                        [
+                            106.703723,
+                            10.784247,
+                            62
+                        ],
+                        [
+                            106.703720,
+                            10.784247,
+                            62
+                        ],
+                        [
+                            106.703720,
+                            10.784249,
+                            62
+                        ]
+                    ]
+                ]
+            },
+            "id": "pp1"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Building name": "thanh trắng - Layer3",
+                "height": 10,
+                "color": "#ffffff",
+                "idb": "1"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            106.703705,
+                            10.784249,
+                            62
+                        ],
+                        [
+                            106.703702,
+                            10.784249,
+                            62
+                        ],
+                        [
+                            106.703702,
+                            10.784247,
+                            62
+                        ],
+                        [
+                            106.703705,
+                            10.784247,
+                            62
+                        ],
+                        [
+                            106.703705,
+                            10.784249,
+                            62
+                        ]
+                    ]
+                ]
+            },
+            "id": "pp1"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Building name": "thanh trắng - Layer3",
+                "height": 10,
+                "color": "#ffffff",
+                "idb": "1"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            106.703687,
+                            10.784249,
+                            62
+                        ],
+                        [
+                            106.703684,
+                            10.784249,
+                            62
+                        ],
+                        [
+                            106.703684,
+                            10.784247,
+                            62
+                        ],
+                        [
+                            106.703687,
+                            10.784247,
+                            62
+                        ],
+                        [
+                            106.703687,
+                            10.784249,
+                            62
+                        ]
+                    ]
+                ]
+            },
+            "id": "pp1"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Building name": "thanh trắng bên phải- Layer3",
+                "height": 10,
+                "color": "#FFFF99",
+                "idb": "1"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            106.703461,
+                            10.784227,
+                            62
+                        ],
+                        [
+                            106.703459,
+                            10.784224,
+                            62
+                        ],
+                        [
+                            106.703458,
+                            10.784224,
+                            62
+                        ],
+                        [
+                            106.703460,
+                            10.784227,
+                            62
+                        ],
+                        [
+                            106.703461,
+                            10.784227,
+                            62
+                        ]
+                    ]
+                ]
+            },
+            "id": "pp1"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Building name": "thanh trắng bên phải - Layer3",
+                "height": 10,
+                "color": "#FFFF99",
+                "idb": "1"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            106.703453,
+                            10.784213,
+                            62
+                        ],
+                        [
+                            106.703451,
+                            10.784210,
+                            62
+                        ],
+                        [
+                            106.703450,
+                            10.784210,
+                            62
+                        ],
+                        [
+                            106.703452,
+                            10.784213,
+                            62
+                        ],
+                        [
+                            106.703453,
+                            10.784213,
+                            62
+                        ]
+                    ]
+                ]
+            },
+            "id": "pp1"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Building name": "thanh trắng bên phải - Layer3",
+                "height": 10,
+                "color": "#FFFF99",
+                "idb": "1"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            106.703445,
+                            10.784199,
+                            62
+                        ],
+                        [
+                            106.703443,
+                            10.784196,
+                            62
+                        ],
+                        [
+                            106.703442,
+                            10.784196,
+                            62
+                        ],
+                        [
+                            106.703444,
+                            10.784199,
+                            62
+                        ],
+                        [
+                            106.703445,
+                            10.784199,
+                            62
+                        ]
+                    ]
+                ]
+            },
+            "id": "pp1"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Building name": "thanh trắng bên phải - Layer3",
+                "height": 10,
+                "color": "#FFFF99",
+                "idb": "1"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            106.703437,
+                            10.784185,
+                            62
+                        ],
+                        [
+                            106.703435,
+                            10.784182,
+                            62
+                        ],
+                        [
+                            106.703434,
+                            10.784182,
+                            62
+                        ],
+                        [
+                            106.703436,
+                            10.784185,
+                            62
+                        ],
+                        [
+                            106.703437,
+                            10.784185,
+                            62
+                        ]
+                    ]
+                ]
+            },
+            "id": "pp1"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Building name": "thanh trắng bên phải - Layer3",
+                "height": 10,
+                "color": "#FFFF99",
+                "idb": "1"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            106.703429,
+                            10.784169,
+                            62
+                        ],
+                        [
+                            106.703427,
+                            10.784166,
+                            62
+                        ],
+                        [
+                            106.703426,
+                            10.784166,
+                            62
+                        ],
+                        [
+                            106.703428,
+                            10.784169,
+                            62
+                        ],
+                        [
+                            106.703429,
+                            10.784169,
+                            62
+                        ]
+                    ]
+                ]
+            },
+            "id": "pp1"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Building name": "thanh trắng bên phải - Layer3",
+                "height": 10,
+                "color": "#FFFF99",
+                "idb": "1"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            106.703421,
+                            10.784151,
+                            62
+                        ],
+                        [
+                            106.703419,
+                            10.784148,
+                            62
+                        ],
+                        [
+                            106.703418,
+                            10.784148,
+                            62
+                        ],
+                        [
+                            106.703420,
+                            10.784151,
+                            62
+                        ],
+                        [
+                            106.703421,
+                            10.784151,
+                            62
+                        ]
+                    ]
+                ]
+            },
+            "id": "pp1"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Building name": "thanh trắng bên phải - Layer3",
+                "height": 10,
+                "color": "#FFFF99",
+                "idb": "1"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            106.703413,
+                            10.784138,
+                            62
+                        ],
+                        [
+                            106.703411,
+                            10.784135,
+                            62
+                        ],
+                        [
+                            106.703410,
+                            10.784135,
+                            62
+                        ],
+                        [
+                            106.703412,
+                            10.784138,
+                            62
+                        ],
+                        [
+                            106.703413,
+                            10.784138,
+                            62
+                        ]
+                    ]
+                ]
+            },
+            "id": "pp1"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Building name": "thanh trắng bên phải - Layer3",
+                "height": 10,
+                "color": "#FFFF99",
+                "idb": "1"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            106.703405,
+                            10.784125,
+                            62
+                        ],
+                        [
+                            106.703403,
+                            10.784122,
+                            62
+                        ],
+                        [
+                            106.703402,
+                            10.784122,
+                            62
+                        ],
+                        [
+                            106.703404,
+                            10.784125,
+                            62
+                        ],
+                        [
+                            106.703405,
+                            10.784125,
+                            62
+                        ]
+                    ]
+                ]
+            },
+            "id": "pp1"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Building name": "thanh trắng bên phải - Layer3",
+                "height": 10,
+                "color": "#FFFF99",
+                "idb": "1"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            106.703397,
+                            10.784109,
+                            62
+                        ],
+                        [
+                            106.703395,
+                            10.784106,
+                            62
+                        ],
+                        [
+                            106.703394,
+                            10.784106,
+                            62
+                        ],
+                        [
+                            106.703396,
+                            10.784109,
+                            62
+                        ],
+                        [
+                            106.703397,
+                            10.784109,
+                            62
+                        ]
+                    ]
+                ]
+            },
+            "id": "pp1"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Building name": "thanh trắng bên phải - Layer3",
+                "height": 10,
+                "color": "#FFFF99",
+                "idb": "1"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            106.703389,
+                            10.784092,
+                            62
+                        ],
+                        [
+                            106.703387,
+                            10.784089,
+                            62
+                        ],
+                        [
+                            106.703386,
+                            10.784089,
+                            62
+                        ],
+                        [
+                            106.703388,
+                            10.784092,
+                            62
+                        ],
+                        [
+                            106.703389,
+                            10.784092,
+                            62
+                        ]
+                    ]
+                ]
+            },
+            "id": "pp1"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Building name": "thanh trắng bên phải - Layer3",
+                "height": 10,
+                "color": "#FFFF99",
+                "idb": "1"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            106.703381,
+                            10.784077,
+                            62
+                        ],
+                        [
+                            106.703379,
+                            10.784074,
+                            62
+                        ],
+                        [
+                            106.703378,
+                            10.784074,
+                            62
+                        ],
+                        [
+                            106.703380,
+                            10.784077,
+                            62
+                        ],
+                        [
+                            106.703381,
+                            10.784077,
+                            62
+                        ]
+                    ]
+                ]
+            },
+            "id": "pp1"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Building name": "thanh trắng bên phải - Layer3",
+                "height": 10,
+                "color": "#FFFF99",
+                "idb": "1"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            106.703373,
+                            10.784064,
+                            62
+                        ],
+                        [
+                            106.703371,
+                            10.784061,
+                            62
+                        ],
+                        [
+                            106.703370,
+                            10.784060,
+                            62
+                        ],
+                        [
+                            106.703372,
+                            10.784063,
+                            62
+                        ],
+                        [
+                            106.703373,
+                            10.784064,
+                            62
+                        ]
+                    ]
+                ]
+            },
+            "id": "pp1"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Building name": "thanh trắng bên phải - Layer3",
+                "height": 10,
+                "color": "#FFFF99",
+                "idb": "1"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            106.703365,
+                            10.784048,
+                            62
+                        ],
+                        [
+                            106.703363,
+                            10.784045,
+                            62
+                        ],
+                        [
+                            106.703362,
+                            10.784045,
+                            62
+                        ],
+                        [
+                            106.703364,
+                            10.784048,
+                            62
+                        ],
+                        [
+                            106.703365,
+                            10.784048,
+                            62
+                        ]
+                    ]
+                ]
+            },
+            "id": "pp1"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Building name": "thanh trắng bên phải - Layer3",
+                "height": 10,
+                "color": "#FFFF99",
+                "idb": "1"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            106.703357,
+                            10.784032,
+                            62
+                        ],
+                        [
+                            106.703355,
+                            10.784029,
+                            62
+                        ],
+                        [
+                            106.703354,
+                            10.784029,
+                            62
+                        ],
+                        [
+                            106.703356,
+                            10.784032,
+                            62
+                        ],
+                        [
+                            106.703357,
+                            10.784032,
+                            62
+                        ]
+                    ]
+                ]
+            },
+            "id": "pp1"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Building name": "thanh trắng bên phải - Layer3",
+                "height": 2,
+                "color": "#00FFFF",
+                "idb": "1"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            106.703359,
+                            10.784020,
+                            62
+                        ],
+                        [
+                            106.703361,
+                            10.784017,
+                            62
+                        ],
+                        [
+                            106.703362,
+                            10.784017,
+                            62
+                        ],
+                        [
+                            106.703360,
+                            10.784020,
+                            62
+                        ],
+                        [
+                            106.703359,
+                            10.784020,
+                            62
+                        ]
+                    ]
+                ]
+            },
+            "id": "pp1"
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "Building name": "thanh trắng bên phải - Layer3",
+                "height": 2,
+                "color": "#00FFFF",
+                "idb": "1"
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            106.703369,
+                            10.784004,
+                            62
+                        ],
+                        [
+                            106.703371,
+                            10.784001,
+                            62
+                        ],
+                        [
+                            106.703372,
+                            10.784001,
+                            62
+                        ],
+                        [
+                            106.703370,
+                            10.784004,
+                            62
+                        ],
+                        [
+                            106.703369,
+                            10.784004,
+                            62
+                        ]
+                    ]
+                ]
+            },
+            "id": "pp1"
+        }
+    ]
+}

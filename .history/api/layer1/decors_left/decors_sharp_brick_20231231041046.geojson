@@ -1,0 +1,26 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "Building name": "Layer 1 - Gờ toà nhà lục giác (ở dưới)",
+        "height": 14.5,
+        "color": "#ffffff",
+        "idb": "1"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [106.703655, 10.784248, 22.5],
+            [106.703654, 10.784221, 22.5],
+            [106.703473, 10.784226, 22.5],
+            [106.703467, 10.78425, 22.5]
+          ]
+        ]
+      },
+      "id": "pp1"
+    }
+  ]
+}
